@@ -2,5 +2,9 @@
   "bbb": {
     "macAddress": "e8:eb:11:4b:a5:ad",
     "username": "Traffic Light Assistant #1"
+  },
+  "UART": "/dev/ttyO4",
+  "options": {
+    "baudRate": 9600
   }
 }
