@@ -1,0 +1,31 @@
+{
+  "name": "traffic-light-assistant",
+  "version": "1.0.0",
+  "description": "Traffic Light Assistant (TLA) Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "lint": "eslint server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alefl10/TLA.git"
+  },
+  "keywords": [
+    "tla"
+  ],
+  "author": "Alejandro Ferrero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alefl10/TLA/issues"
+  },
+  "homepage": "https://github.com/alefl10/TLA#readme",
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}
