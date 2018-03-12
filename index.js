@@ -1,14 +1,14 @@
 const gps = require('./src/gps');
+const update = require('./src/requests');
 const {
   parser,
 } = require('./lib/utils.js');
 
 gps.on('data', (data) => {
-  console.log(`Data Received: ${data}`);
   const parts = data.split(',');
   if (parts[0] === '$GPRMC' && parts[2] !== 'V') {
     const gpsInfo = parser(parts);
-    console.log(gpsInfo);
+    update(gpsInfo);
   }
 });
 
