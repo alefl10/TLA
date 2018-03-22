@@ -24,7 +24,7 @@ const update = (gpsData) => {
       'Content-Type': 'application/json',
     },
   };
-  client.put(`http://192.168.0.27:3000/api/tla/${tla.id}`, gpsUpdate, (response) => {
+  client.put(`http://${tla.serverIP}/api/tla/${tla.id}`, gpsUpdate, (response) => {
     console.log('Server Response OK:');
     console.log(response);
   });

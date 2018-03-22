@@ -1,5 +1,6 @@
 {
   "bbb": {
+    "serverIP": "192.168.0.27:3000",
     "id": "5aa6266e106ca09d1aa4fb55",
     "macAddress": "e8:eb:11:4b:a5:ad",
     "username": "Traffic Light Assistant #1"
