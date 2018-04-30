@@ -1,12 +1,17 @@
 {
   "bbb": {
-    "serverIP": "192.168.0.27:3000",
-    "id": "5aa6266e106ca09d1aa4fb55",
+    "serverIP": "192.168.0.32:3000",
+    "id": "5ab2f287271530ef006b4e4a",
     "macAddress": "e8:eb:11:4b:a5:ad",
     "username": "Traffic Light Assistant #1"
   },
   "UART": "/dev/ttyO1",
   "options": {
     "baudRate": 9600
+  },
+  "ledTest": {
+    "serverConnection": "P9_15",
+    "serverResponse": "P9_17",
+    "incomingGPS": "P9_23"
   }
 }

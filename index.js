@@ -1,4 +1,5 @@
 const gps = require('./src/gps');
+const test = require('./lib/ledTests');
 const update = require('./src/requests');
 const {
   parser,
@@ -20,7 +21,9 @@ const prepareToUpdate = (function () {
 
 gps.on('data', (data) => {
   const parts = data.split(',');
+  console.log(data);
   if (parts[0] === '$GPRMC' && parts[2] !== 'V') {
+    test.incomingGPS();
     prepareToUpdate(parser(parts));
   }
 });

@@ -29,6 +29,7 @@
     "eslint-plugin-react": "^7.7.0"
   },
   "dependencies": {
+    "bonescript": "^0.6.3",
     "node-rest-client": "^3.1.0",
     "serialport": "^6.1.1"
   }
